@@ -33,6 +33,7 @@ public class EmployeeManagedBean {
         {
             employeeRepository.deleteById(inputTCKN);
             infoMessage="Silme Basarili";
+            //deneme
         }
         catch (NumberFormatException e)
         {
